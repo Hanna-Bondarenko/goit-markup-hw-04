@@ -1,0 +1,298 @@
+/* =========common styles============ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background: #fff;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .section-paddings {
+  padding-top: 120px;
+  padding-bottom: 120px;
+} */
+
+/* ========HEADER STYLES========= */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+.page-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+
+  margin-right: 76px;
+}
+.text-color {
+  color: #4d5ae5;
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+  display: block;
+}
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+.contact-block {
+  font-style: normal;
+  margin-left: auto;
+}
+.contact-list {
+  display: flex;
+  gap: 40px;
+}
+
+.contact-list-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-list-link:hover,
+.contact-list-link:focus {
+  color: #404bbf;
+}
+
+/* =========HERO STYLES======= */
+.hero {
+  padding: 188px 0 188px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  background: #2e2f42;
+}
+
+.main-title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  max-width: 496px;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.order-service-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+}
+.order-service-btn:hover,
+.order-service-btn:focus {
+  background-color: #404bbf;
+}
+/* <!-- =====BENEFITS====== --> */
+.benefits {
+  padding: 120px 0 120px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.benefits-list {
+  display: flex;
+  gap: 24px;
+}
+.benefits-list-item {
+  width: calc((100% - 72px) / 4);
+}
+.benefits-list-title {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.benefits-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* <!-- ===Our Team === --> */
+.ourteam-list {
+  display: flex;
+  gap: 24px;
+}
+
+.ourteam-list-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: calc((100% - 72px) / 3);
+  background: #ffffff;
+}
+.container-name {
+  padding: 32px 0 32px;
+}
+.ourteam {
+  padding: 120px 0 120px;
+  background: #f4f4fd;
+}
+.ourteam-title {
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.ourteam-list-title {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.ourteam-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+/* <!-- ===Our Portfolio === --> */
+.portfolio {
+  padding: 120px 0 120px 0;
+}
+.portfolio-title {
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-list-item {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-name {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px 16px;
+}
+.portfolio-list-title {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* !-- FOOTER --> */
+.footer {
+  padding: 100px 0 100px;
+  background: #2e2f42;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.text-color-logo {
+  color: #4d5ae5;
+}
